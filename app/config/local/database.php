@@ -22,10 +22,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'homestead',
-			'username'  => 'homestead',
-			'password'  => 'secret',
+			'host'      => getenv('DATABASE_HOST'),
+			'database'  => getenv('DATABASE_NAME'),
+			'username'  => getenv('DATABASE_USERNAME'),
+			'password'  => getenv('DATABASE_PASSWORD'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -33,10 +33,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'homestead',
-			'username' => 'homestead',
-			'password' => 'secret',
+			'host'     => getenv('DATABASE_HOST'),
+			'database' => getenv('DATABASE_NAME'),
+			'username' => getenv('DATABASE_USERNAME'),
+			'password' => getenv('DATABASE_PASSWORD'),
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
