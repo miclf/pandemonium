@@ -9,6 +9,7 @@ composer.lock
 # Definitions of environment variables
 .env.*.php
 .env.php
+!.env.example.php
 
 # Laravel auto-generated files
 /bootstrap/compiled.php
