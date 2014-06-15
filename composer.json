@@ -1,8 +1,6 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
-	"license": "MIT",
+	"name": "pandemonium/pandemonium",
+	"description": "The Pandemonium Project",
 	"require": {
 		"laravel/framework": "4.2.*"
 	},
