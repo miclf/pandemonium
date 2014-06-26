@@ -6,6 +6,7 @@
 	},
 	"require-dev": {
 		"fabpot/php-cs-fixer": "dev-master",
+		"fzaninotto/faker": "dev-master",
 		"way/generators": "2.*"
 	},
 	"autoload": {
