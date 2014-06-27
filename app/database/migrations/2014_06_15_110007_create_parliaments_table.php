@@ -15,9 +15,10 @@ class CreateParliamentsTable extends Migration
         Schema::create('parliaments', function (Blueprint $table) {
 
             // Primary key
-            $table->string('id', 1)->primary();
+            $table->increments('id');
 
             // Main data
+            $table->string('abbr', 1);
             $table->string('name');
 
         });

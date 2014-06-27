@@ -11,10 +11,10 @@ class ParliamentsTableSeeder extends Seeder
     {
         DB::table('parliaments')->truncate();
 
-        $parliaments = [
-            ['id' => 'K', 'name' => 'Chamber of Representatives'],
-            ['id' => 'S', 'name' => 'Senate'],
-        ];
+        $parliaments = array(
+            ['abbr' => 'K', 'name' => 'Chamber of Representatives'],
+            ['abbr' => 'S', 'name' => 'Senate'],
+        );
 
         DB::table('parliaments')->insert($parliaments);
     }
