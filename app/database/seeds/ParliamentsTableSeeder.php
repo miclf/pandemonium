@@ -9,7 +9,7 @@ class ParliamentsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('parliaments')->truncate();
+        DB::table('parliaments')->delete();
 
         $parliaments = array(
             ['abbr' => 'K', 'name' => 'Chamber of Representatives'],
